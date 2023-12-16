@@ -12,9 +12,9 @@
 ```cpp
 enum EnumName
 {
-	ENUM1,
-	ENUM2,
-	ENUM3
+    ENUM1,
+    ENUM2,
+    ENUM3
 }
 ```
 
@@ -24,9 +24,9 @@ enum EnumName
 ```cpp
 enum Fruits
 {
-	APPLE,
-	ORANGE,
-	BANANA
+    APPLE,
+    ORANGE,
+    BANANA
 };
 
 // true
@@ -46,10 +46,10 @@ bool isBanana = (BANANA == (ORANGE + 1));
 ```cpp
 enum Fruits
 {
-	APPLE,			// 0
-	ORANGE,			// 1
-	BANANA = 10,	// 10
-	LEMON			// 11
+    APPLE,          // 0
+    ORANGE,         // 1
+    BANANA = 10,    // 10
+    LEMON           // 11
 };
 ```
 
@@ -58,9 +58,9 @@ enum Fruits
 ```cpp
 enum class EnumName
 {
-	ENUM1,
-	ENUM2,
-	ENUM3
+    ENUM1,
+    ENUM2,
+    ENUM3
 }
 ```
 
@@ -72,9 +72,9 @@ enum class EnumName
 ```cpp
 enum class Fruits
 {
-	APPLE = 3,
-	ORANGE,
-	BANANA
+    APPLE = 3,
+    ORANGE,
+    BANANA
 };
 
 // Compile error
@@ -95,9 +95,9 @@ bool isBanana = (static_cast<int>(Fruits::BANANA) == 5);
 ```cpp
 enum class Fruits : uint64_t
 {
-	APPLE = 1000'2000'3000'4000ULL,
-	ORANGE,
-	BANANA
+    APPLE = 1000'2000'3000'4000ULL,
+    ORANGE,
+    BANANA
 };
 ```
 
@@ -109,8 +109,8 @@ enum class Fruits : uint64_t
 ```cpp
 enum class MyUInt : uint32_t {};
 
-uint32_t stdUInt	{ 1U };
-MyUInt myUInt		{ 2U };
+uint32_t stdUInt    { 1U };
+MyUInt myUInt       { 2U };
 
 // compile error
 bool comp1 = (stdUInt == myUInt);
