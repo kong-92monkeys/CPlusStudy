@@ -9,7 +9,7 @@
 
 - **[Introduction](/Contents/Introduction/Introduction.md)**
 - **[Enumerations](/Contents/Enumerations/Enumerations.md)**
-- **[Three-Way Comparisons](</Contents/Enumerations/Three-Way Comparisons.md>)**
+- **[Three-Way Comparisons](</Contents/Three-Way Comparisons/Three-Way Comparisons.md>)**
 
 ## Contribution
 
