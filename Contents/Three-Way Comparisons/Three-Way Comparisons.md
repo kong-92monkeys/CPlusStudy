@@ -8,7 +8,7 @@
 
 ## Syntax
 
-- It is comparison operator.
+- It is a comparison operator.
 
 ```cpp
 int lhs        { 0 };
