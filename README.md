@@ -8,6 +8,7 @@
 ## Contents
 
 - **[Introduction](/Contents/Introduction/Introduction.md)**
+- **[Enumerations](/Contents/Enumerations/Enumerations.md)**
 
 ## Contribution
 
