@@ -4,7 +4,7 @@
 
 - A thin wrapper around C-style arrays.
 - Not automatically cast to a pointer.
-- Have iterators.
+- Have useful functionalities, such as iterators.
 
 ## Syntax
 
