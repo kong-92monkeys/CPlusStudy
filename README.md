@@ -7,10 +7,15 @@
 
 ## Contents
 
+### Syntax
+
 - **[Introduction](/Contents/Introduction/Introduction.md)**
 - **[Enumerations](/Contents/Enumerations/Enumerations.md)**
 - **[Three-Way Comparisons](</Contents/Three-Way Comparisons/Three-Way Comparisons.md>)**
 - **[Attributes](/Contents/Attributes/Attributes.md)**
+
+### Library
+
 - **[std::array](/Contents/std_array/std_array.md)**
 - **[std::pair](/Contents/std_pair/std_pair.md)**
 - **[std::optional](/Contents/std_optional/std_optional.md)**
