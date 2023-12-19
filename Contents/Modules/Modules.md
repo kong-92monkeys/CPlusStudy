@@ -271,7 +271,7 @@ int main()
 - Module partitions are not exposed to the outside of the module.
 - When utilizing module partitions, a single module is divided into a primary interface and interface partitions.
     - A module always has only one such primary module interface file.
-    - That¡¯s the interface file containing the export module name declaration.
+    - That's the interface file containing the export module name declaration.
 
 ```cpp
 // Car.ixx
