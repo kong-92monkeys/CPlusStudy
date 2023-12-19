@@ -7,7 +7,7 @@
 - To modify the value scope of the enumerators, specify the desired integer type after the enum type name.
 - From C++17, by defining an enum with an underlying type and no enumerators, you can in effect introduce a new integral type that has no implicit conversion to any other type.
 
-## Legacy syntax from C
+## Legacy Syntax from C
 
 ```cpp
 enum EnumName
@@ -87,7 +87,7 @@ bool isOrange = (Fruits::ORANGE == 4);
 bool isBanana = (static_cast<int>(Fruits::BANANA) == 5);
 ```
 
-## Enums with underlying type (Since C++11)
+## Enums with Underlying Type (Since C++11)
 
 - By default, enumerators (scoped or not) have `int` values.
 - If you want to modify the value scope of the enumerators, specify the desired integer type after the enum type name.
@@ -101,7 +101,7 @@ enum class Fruits : uint64_t
 };
 ```
 
-## Enums with no enumerators (Since C++17)
+## Enums with No Enumerators (Since C++17)
 
 - With an explicit underlying type and no enumerators, you can in effect introduce a new integral type.
 - No implicit conversion to any other type.
