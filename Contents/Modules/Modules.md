@@ -285,8 +285,8 @@ import :wheel;
 export class Car
 {
 public:
-	Engine engine{ };
-	Wheel wheel{ };
+    Engine engine{ };
+    Wheel wheel{ };
 };
 ```
 
